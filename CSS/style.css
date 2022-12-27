@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    padding:30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+   nav ul, footer ul{
+    display: flex;
+    list-style: none;
+}
+     nav ul li{
+        margin-right: 30px;
+     }
+
+       nav ul li{
+        margin-right: 20px;
+       }
+       nav ul li a{
+        text-decoration: none;
+        color: rgb(57, 57, 223);
+        font-size: 16px;
+       }
+    
+/*Aplicamos la propiedad object-fit cover, ajustar su tamaño */
+         header img{
+            width:100%;
+            height:10cm;
+            object-fit: cover;
+                                 }
+         
+ /* Display flex   */
+       .flex-container{
+        display: flex;
+       }
+       .flex-wrap{
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+       }
+/* Justificar contenido y para centrar*/
+       .justify-content-space{
+        justify-content: space-between;
+       }
+       .justify-content-center{
+        justify-content: center;
+       }
+
+       .text-center{
+        text-align: center;
+       }
+      
+  /* Definición  de tipologia de letras interlineados H1-h2 y parrafos */
+          h1{
+            font:30px;}
+          h2{
+            font-size: 20px;
+          }
+        .Figcaption{
+            font-size: 30px;
+            padding: 1cm;
+        }
+/* Defincion de margenes generales o principales para todas las secciones y parrafos */
+   section{
+        text-align: center;
+        padding: 60px;
+   }   
+
+   section img{
+    object-fit: cover;
+    height: 10cm;
+   }
+    p{margin: 30px;}    
+
+    section video{
+      width:100%;
+       height:10cm;
+      object-fit: cover;                               
+    }
+ 
+ /* Clase para fondo de color  */
+    .fondo{
+    background-color: rgba(125, 125, 189, 0.123);
+    padding: 1cm;
+        
+  }
+            
+   .fondo-figuras{
+    background-color: rgba(125, 125, 189, 0.123);
+    padding: 60px 0;
+
+   }
+    figure img{
+        padding: 1cm;
+        max-height: 5cm;
+            }
+   footer{
+    background-color: rgba(68, 55, 184, 0.712);
+    color: #fff;
+    padding-top: 30px ;
+    padding-bottom: 20px;
+       }
+    footer a{
+      color: #fff;
+      text-decoration: none;
+      margin: 10px;
+      
+      
+    }
+    .fondo-figuras div{
+      max-width: 1200px;
+          }
+    form{
+      display: flex;
+      justify-content: center;
+    }
+    form ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 600px;
+      width: 100%;
+      padding: 16px;
+      
+          }
+    form ul li{
+      display: flex;
+      flex-direction: column;  
+      margin: 4px 0;
+      width: 100%;    
+    }
+
+    form ul li input{
+      width: 100%;
+      padding: 8px;
+    }
+
+#botonera{
+  background-color: rgba(68, 55, 184, 0.712);
+}
+#botonera ul li a{
+  color: blanchedalmond;
+  font-size: 1.em;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+botonera ul li a:hover{
+  color: black;
+	font-weight: 600;
+}
+
+.centrado{
+ margin: auto auto;
+
+}
+
+/* CSS para Achicar de CAR */
+.card-img-top{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+/* CSS para ajustar imgenes Car de nosotros */
+.img-fluid.rounded-start{
+height: 100%;
+}
+
+/* Edicion del Formulario */
+.form{
+  background-color: rgba(42, 121, 196, 0.473);
+  color: #fff;
+}
+.btn.btn-primary{
+  background-color: blueviolet;
+}
